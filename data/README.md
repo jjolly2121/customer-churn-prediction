@@ -8,6 +8,7 @@ and evaluation as part of the capstone project.
 - Description: Simulated SaaS customer behavior data including subscription
   activity, usage patterns, and churn labels.
 - Collection Method: Downloaded directly from Kaggle in CSV format.
+- https://www.kaggle.com/datasets/rivalytics/saas-subscription-and-churn-analytics-dataset
 
 ## Dataset 2: Customer Churn Prediction Business Dataset
 - Source: Kaggle
