@@ -1,0 +1,8 @@
+services:
+  churn-api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      MODEL_PATH: /app/artifacts/final_random_forest.joblib
+      MODEL_METADATA_PATH: /app/artifacts/model_metadata.json
