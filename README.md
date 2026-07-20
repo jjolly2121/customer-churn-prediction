@@ -2,12 +2,6 @@
 
 A machine learning engineering capstone project that predicts whether a bank customer is likely to exit using demographic and financial account features. The project includes the full modeling workflow, saved model artifacts, a FastAPI prediction service, automated API tests, and Docker deployment configuration.
 
-## Live Application
-
-- Application UI: https://customer-churn-prediction-k5p8.onrender.com
-- Swagger docs: https://customer-churn-prediction-k5p8.onrender.com/docs
-- Health check: https://customer-churn-prediction-k5p8.onrender.com/health
-
 ## Project Overview
 
 Customer churn prediction helps organizations identify customers who may leave so retention efforts can be targeted before revenue is lost. This project uses a 10,000-record bank customer churn dataset and predicts the `Exited` target:
@@ -45,7 +39,8 @@ customer-churn-prediction/
 │   └── model and scaling result files
 ├── data/
 │   ├── Customer Churn new.csv
-│   └── customer_churn_cleaned.csv
+│   ├── customer_churn_cleaned.csv
+│   └── README.md
 ├── docs/
 │   ├── Step_9_Deployment_Method_and_Engineering_Plan.docx
 │   └── 10_Deployment_Architecture.docx
