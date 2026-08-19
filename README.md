@@ -210,3 +210,7 @@ Potential extensions include threshold optimization based on retention costs, pr
 ## Author
 
 Jeffrey Jolly
+
+## License
+
+The original source code is available under the [MIT License](LICENSE). The included dataset remains subject to the terms of its original public source, documented in [`data/README.md`](data/README.md).
