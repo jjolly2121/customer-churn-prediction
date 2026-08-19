@@ -1,5 +1,7 @@
 # Customer Churn Prediction API
 
+[![Tests](https://github.com/jjolly2121/customer-churn-prediction/actions/workflows/tests.yml/badge.svg)](https://github.com/jjolly2121/customer-churn-prediction/actions/workflows/tests.yml)
+
 A machine learning engineering capstone project that predicts whether a bank customer is likely to exit using demographic and financial account features. The project includes the full modeling workflow, saved model artifacts, a FastAPI prediction service, automated API tests, and Docker deployment configuration.
 
 ## Project Overview
@@ -208,3 +210,7 @@ Potential extensions include threshold optimization based on retention costs, pr
 ## Author
 
 Jeffrey Jolly
+
+## License
+
+The original source code is available under the [MIT License](LICENSE). The included dataset remains subject to the terms of its original public source, documented in [`data/README.md`](data/README.md).
